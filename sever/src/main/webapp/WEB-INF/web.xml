@@ -1,0 +1,222 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list> 
+    <welcome-file>login.jsp</welcome-file> 
+  </welcome-file-list>  
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>Register</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>Register</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>Register</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>Read</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>Read</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>Read</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/List</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>update1</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>update1</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>update1</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>update</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>update</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>update</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/Edit</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>Admin</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>Admin</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>Admin</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>Login</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>Login</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>Login</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>User</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>User</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>User</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/User</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>reg</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>reg</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>reg</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/user_register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>regUser</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>regUser</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>regUser</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>loginUser</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>loginUser</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>loginUser</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>checkuser</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>checkuser</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>checkuser</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/L_user</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>forget</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>forget</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>forget</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/forgot</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>resetPass</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>resetPass</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>resetPass</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/F_user</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>movielist</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>movielist</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>movielist</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/List1</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>s1</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>s1</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>s1</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <!-- Provide a Servlet Name -->
+    <servlet-name>booking</servlet-name>
+    <!-- Provide a fully qualified path to the DispatcherServlet class -->
+    <servlet-class>booking</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+      <!-- Provide a Servlet Name that you want to map -->
+      <servlet-name>booking</servlet-name>
+      <!-- Provide a url pattern -->
+      <url-pattern>/Select</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+
